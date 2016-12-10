@@ -28,7 +28,11 @@ Tous les niveaux sont acceptés, débutants ou expérimentés.
 
 Côté matériel, un kimono type judo, une ceinture blanche et des tongs sont nécessaires pour la pratique. Pour les premiers cours, un survêtement en coton est accepté.
 
-![Plan Dojo TOS KARATE-DO]({{ '/assets/club_dojo.jpg' | relative_url }})
+## Plan d'accès
+
+### Plan Dojo TOS KARATE-DO
+
+![]({{ '/assets/club_dojo.jpg' | relative_url }})
 
 ## L'enseignement
 
