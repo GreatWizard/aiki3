@@ -36,7 +36,7 @@ Les cours sont assurés par Michel Czerniak, ceinture noire 6e Dan, diplômé d'
 
 Le groupe se compose d'une vingtaine de licenciés.
 
-L'Aiki3 est affilié à la FFAAA.
+L'Aiki3 est affilié à la [FFAAA](http://www.aikido.com.fr).
 
 <a href="http://www.aikido.com.fr" target="_blank">
   ![Fédération Française Aïkido Aïkibudo et Affinitaires]({{ '/assets/logo_ffaaa.jpg' | relative_url }})
