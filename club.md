@@ -20,7 +20,7 @@ linkOrder: 10
 
 - Enfant : 22 euros
 
-<em>Un certificat médical vous autorisant la pratique de l'Aikido est nécessaire pour toute demande de licence.</em>
+<em>Un certificat médical vous autorisant la pratique de l'Aïkido est nécessaire pour toute demande de licence.</em>
 
 ## Qui peut venir pratiquer ?
 
