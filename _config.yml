@@ -1,0 +1,21 @@
+title: Aiki3 club d'Aikido à Troyes
+shortTitle: Aiki3
+email: info@aiki3.com
+description: Aiki3 club d'Aikido à Troyes
+keywords: aiki3, aikido, troyes, aube, czerniak, boileau, cosec, champagne, ffaaa, benezi, club, sport, dtr, dojo, art, martial, aikibudo, karate, harmonie, energie, voie, japon, brevet, etat, ceinture, noire, tissier, yamaguchi, sensei, morihei, ueshiba, ecole, enseignement, pedagogie, discipline, federation, francais, aikibudo, affinitaire, kung fu, taijutsu, tradition
+baseurl: ""
+url: ""
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - circle.yml
+gems:
+  - bourbon
+  - neat
+  - jekyll-autoprefixer
+sass:
+  style: compressed

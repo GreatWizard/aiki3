@@ -1,0 +1,14 @@
+dependencies:
+  pre:
+    - sudo apt-get update
+    - sudo apt-get install ncftp
+  override:
+    - make install update
+test:
+  override:
+    - make build
+deployment:
+  documentation:
+    branch: master
+    commands:
+      - ncftpput -R -v -u $FTP_USER -p $FTP_PSSWD $FTP_HOST __nouveau _site/*

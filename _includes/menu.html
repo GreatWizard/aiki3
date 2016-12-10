@@ -1,0 +1,8 @@
+<nav>
+  {% assign sorted = site.pages | sort:"linkOrder" %}
+  {% for page in sorted %}
+    {{% if page.link %}}
+      <a href="{{ page.url | relative_url }}">{{ page.link | escape }}</a>
+    {{% endif %}}
+  {% endfor %}
+</nav>
