@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pratiquer l'aikido à Troyes
+title: Pratiquer l'aïkido à Troyes
 link: Accueil
 linkOrder: 0
 ---
@@ -30,7 +30,7 @@ Dojo de la Tour Boileau
 
 ![Aiki3]({{ '/assets/mcz_small.jpg' | relative_url }})
 
-L'Aiki3 est un club d'aikido sur Troyes.
+L'Aiki3 est un club d'aïkido sur Troyes.
 
 Les cours sont assurés par Michel Czerniak, ceinture noire 6e Dan, diplômé d'État (Diplôme n° 75970723).
 
