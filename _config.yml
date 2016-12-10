@@ -17,5 +17,3 @@ gems:
   - bourbon
   - neat
   - jekyll-autoprefixer
-sass:
-  style: compressed
