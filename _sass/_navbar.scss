@@ -1,0 +1,18 @@
+.navbar {
+	background-color: #d3d3d3;
+	box-shadow: 0px 2px 4px #000;
+	height: 40px;
+
+	&__item {
+		display: inline-block;
+		color: #313131;
+	}
+
+	&__link {
+		min-width:80px;
+	}
+
+	&__logo {
+		padding: 4px 4px 4px 4px;
+	}
+}
