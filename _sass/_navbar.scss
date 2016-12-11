@@ -25,6 +25,12 @@
         color: darken($navbar-color-link, 10%);
       }
     }
+
+    &--active {
+      a {
+        color: red; // TODO
+      }
+    }
   }
 
   &__logo {
