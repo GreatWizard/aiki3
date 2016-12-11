@@ -1,0 +1,16 @@
+{% assign sorted = site.pages | sort: 'linkOrder' %}
+<nav class="navbar">
+  <div class="navbar__item navbar__logo">
+    <a href="{{ '' | relative_url }}">
+      <img src="{{ '/assets/logo-text.png' | relative_url }}" />
+    </a>
+  </div>
+  <div class="navbar__item navbar__separator"></div>
+  {% for page in sorted %}
+    {% if page.link %}
+      <div class="navbar__item navbar__link">
+        <a href="{{ page.url | relative_url }}">{{ page.link }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</nav>

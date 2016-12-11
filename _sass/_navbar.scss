@@ -1,18 +1,30 @@
 .navbar {
-  background-color: #d3d3d3;
-  box-shadow: 0px 2px 4px #000;
+  @include display(flex);
+  background-color: $navbar-color-background;
+  box-shadow: 0px 2px 4px $navbar-color-shadow;
   height: 40px;
 
   &__item {
-    padding-left: 10px;
-    padding-right: 10px;
-    display: inline-block;
-    overflow: hidden;
-    color: #313131;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  &__separator {
+    width: 2px;
+    background-color: #fff;
   }
 
   &__link {
-    height: 100%;
+    line-height: 40px;
+    font-weight: bold;
+
+    a {
+      color: $navbar-color-link;
+
+      &:hover {
+        color: darken($navbar-color-link, 10%);
+      }
+    }
   }
 
   &__logo {
