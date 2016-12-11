@@ -1,14 +1,15 @@
 html {
   font-family: 'Roboto', sans-serif;
+  color: $text-color;
 }
 
 a {
   text-decoration: none;
-  color: $color-link;
+  color: $link-color;
   cursor: pointer;
 
   &:hover {
     text-decoration: underline;
-    color: darken($color-link, 10%);
+    color: $link-color-hover;
   }
 }
