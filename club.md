@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: Présentation du club
 link: Club
 linkOrder: 10

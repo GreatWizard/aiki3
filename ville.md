@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: Histoire de Troyes
 link: Ville
 linkOrder: 30
