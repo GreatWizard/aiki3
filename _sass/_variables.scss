@@ -1,14 +1,18 @@
+// Z-INDEX
+
+$z-index-scale: navbar;
+
 // COLORS
 
 $color-background: #323232;
 $color-foreground: #fff;
 $color-main: #ec2027;
 
-// MARGINS
+// SPACINGS
 
-$margin-small: 5px;
-$margin-normal: 10px;
-$margin-big: 20px;
+$spacing-small: 5px;
+$spacing-normal: 10px;
+$spacing-big: 20px;
 
 // CONTAINTER
 
@@ -28,4 +32,5 @@ $navbar-link-color: #313131;
 $navbar-link-hover-color: darken($color-main, 10%);
 $navbar-link-active-color: $color-main;
 $navbar-separator-color: #fff;
+$navbar-separator-width: 2px;
 $navbar-height: 40px;
