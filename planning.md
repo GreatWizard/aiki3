@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: Planning des stages
 link: Planning
 linkOrder: 60

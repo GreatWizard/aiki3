@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: Les liens Aïkido
 link: Liens
 linkOrder: 80

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: Page des téléchargements
 link: Téléchargements
 linkOrder: 70

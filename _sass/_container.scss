@@ -1,3 +1,21 @@
 html {
   background-color: $container-background-color;
 }
+
+.container {
+  @include outer-container(100%);
+  margin-left: $margin-big;
+  margin-right: $margin-big;
+
+  &__3 {
+    @include span-columns(3);
+  }
+
+  &__9 {
+    @include span-columns(9);
+  }
+
+  &__12 {
+    @include span-columns(12);
+  }
+}

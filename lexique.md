@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: Lexique
 link: Lexique
 linkOrder: 50

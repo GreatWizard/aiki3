@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: L'Aïkido, qu'est-ce que c'est ?
 link: Présentation
 linkOrder: 20

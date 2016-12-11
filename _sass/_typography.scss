@@ -1,6 +1,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: $text-color;
+  font-size: 100%;
 }
 
 a {
@@ -12,4 +13,16 @@ a {
     text-decoration: underline;
     color: $link-color-hover;
   }
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1rem;
 }

@@ -1,30 +1,9 @@
 ---
-layout: default
+layout: page-with-side
 title: Pratiquer l'aïkido à Troyes
 link: Accueil
 linkOrder: 0
 ---
-## Horaires et lieux
-
-### Mardi
-
-De 20h30 à 20h30
-
-Gymnase René Lacoste
-
-6, Rue de la Petite Courtine
-
-10000 Troyes
-
-### Jeudi
-
-De 20h à 22h
-
-Dojo de la Tour Boileau
-
-19, Rue de la tour Boileau
-
-10000 Troyes
 
 ## Qui sommes-nous ?
 

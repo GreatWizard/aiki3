@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page-full
 title: Étiquette et comportement
 link: Étiquette
 linkOrder: 40
