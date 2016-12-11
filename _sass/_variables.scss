@@ -1,10 +1,31 @@
 // COLORS
 
 $color-background: #323232;
-$color-default: #fff;
-$color-link: #ec5d5d;
+$color-foreground: #fff;
+$color-main: #ec2027;
 
-$navbar-color-background: #d3d3d3;
-$navbar-color-shadow: #000;
-$navbar-color-link: #313131;
-$navbar-color-separator: #000;
+// MARGINS
+
+$margin-small: 5px;
+$margin-normal: 10px;
+$margin-big: 20px;
+
+// CONTAINTER
+
+$container-background-color: $color-background;
+
+// TYPOGRAPHY
+
+$text-color: $color-foreground;
+$link-color: $color-main;
+$link-color-hover: darken($color-main, 10%);
+
+// NAVBAR
+
+$navbar-background-color: #d3d3d3;
+$navbar-shadow-color: #000;
+$navbar-link-color: #313131;
+$navbar-link-hover-color: darken($color-main, 10%);
+$navbar-link-active-color: $color-main;
+$navbar-separator-color: #fff;
+$navbar-height: 40px;

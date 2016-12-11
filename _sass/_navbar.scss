@@ -1,43 +1,44 @@
 .navbar {
   @include display(flex);
-  background-color: $navbar-color-background;
-  box-shadow: 0px 2px 4px $navbar-color-shadow;
-  height: 40px;
+  background-color: $navbar-background-color;
+  box-shadow: 0px 2px 4px $navbar-shadow-color;
+  height: $navbar-height;
 
   &__item {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: $margin-normal;
+    margin-right: $margin-normal;
   }
 
   &__separator {
     width: 2px;
-    background-color: #fff;
+    background-color: $navbar-separator-color;
   }
 
   &__link {
-    line-height: 40px;
+    line-height: $navbar-height;
     font-weight: bold;
 
     a {
-      color: $navbar-color-link;
+      color: $navbar-link-color;
 
       &:hover {
-        color: darken($navbar-color-link, 10%);
+        color: $navbar-link-hover-color;
       }
     }
 
     &--active {
       a {
-        color: red; // TODO
+        color: $navbar-link-active-color;
       }
     }
   }
 
   &__logo {
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: $margin-small;
+    padding-bottom: $margin-small;
+
     img {
-      height: 32px;
+      @include calc(height, "#{$navbar-height} - (2 * #{$margin-small})");
     }
   }
 }
