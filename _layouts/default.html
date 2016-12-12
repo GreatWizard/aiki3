@@ -34,16 +34,12 @@
   <meta name="theme-color" content="#323232">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 </head>
-<body>
+<body class="container">
   {% include navbar.html %}
-  <main>
-    <div class="footer-pusher">
-      <div class="container">
-        {{ content }}
-      </div>
-    </div>
-    {% include footer.html %}
+  <main class="footer-pusher">
+    {{ content }}
   </main>
+  {% include footer.html %}
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}

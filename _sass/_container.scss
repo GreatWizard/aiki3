@@ -4,8 +4,8 @@ html {
 
 .container {
   @include outer-container(100%);
-  margin-left: $margin-big;
-  margin-right: $margin-big;
+  margin-left: $spacing-big;
+  margin-right: $spacing-big;
 
   &__3 {
     @include span-columns(3);

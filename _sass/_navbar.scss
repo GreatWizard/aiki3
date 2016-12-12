@@ -1,17 +1,23 @@
+html {
+  @include calc(margin-top, "#{$navbar-height} + #{$spacing-big}");
+}
+
 .navbar {
   @include display(flex);
+  padding-left: $spacing-big;
+  padding-right: $spacing-big;
+  height: $navbar-height;
   background-color: $navbar-background-color;
   box-shadow: 0px 2px 4px $navbar-shadow-color;
-  height: $navbar-height;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: index($z-index-scale, navbar);
 
   &__item {
-    margin-left: $margin-normal;
-    margin-right: $margin-normal;
-  }
-
-  &__separator {
-    width: 2px;
-    background-color: $navbar-separator-color;
+    margin-left: $spacing-normal;
+    margin-right: $spacing-normal;
   }
 
   &__link {
@@ -34,11 +40,16 @@
   }
 
   &__logo {
-    padding-top: $margin-small;
-    padding-bottom: $margin-small;
+    @include span-columns(3);
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+    border-right-style: solid;
+    border-color: $navbar-separator-color;
+    border-width: $navbar-separator-width;
+    text-align: center;
 
     img {
-      @include calc(height, "#{$navbar-height} - (2 * #{$margin-small})");
+      @include calc(height, "#{$navbar-height} - (2 * #{$spacing-small})");
     }
   }
 }
