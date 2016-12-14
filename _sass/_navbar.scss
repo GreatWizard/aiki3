@@ -16,8 +16,9 @@ html {
   z-index: index($z-index-scale, navbar);
 
   &__item {
-    margin-left: $spacing-normal;
-    margin-right: $spacing-normal;
+    text-align: center;
+    padding-left: $spacing-big;
+    padding-right: $spacing-big;
   }
 
   &__link {
@@ -28,11 +29,21 @@ html {
       color: $navbar-link-color;
 
       &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:hover {
+      background-color: $navbar-thumb-color-selected;
+
+      a {
         color: $navbar-link-hover-color;
       }
     }
 
     &--active {
+      background-color: $navbar-thumb-color-selected;
+
       a {
         color: $navbar-link-active-color;
       }
@@ -40,7 +51,7 @@ html {
   }
 
   &__logo {
-    @include span-columns(3);
+    @include span-columns(2);
     padding-top: $spacing-small;
     padding-bottom: $spacing-small;
     border-right-style: solid;
