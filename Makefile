@@ -8,15 +8,16 @@ help:
 
 # help: install     Install dependencies
 install:
-	gem install jekyll bundler
+	gem install --user-install jekyll bundler
 
 # help: update      Update dependencies
 update:
-	bundle install
+	mkdir -p .bundle/
+	bundle install --local
 
 # help: serve (s)   Launch server
 serve:
-	jekyll serve
+	jekyll serve -w
 
 s: serve
 
