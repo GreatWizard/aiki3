@@ -1,11 +1,11 @@
-{% assign sorted = site.pages | sort: 'linkOrder' %}
+{% assign pagesSorted = site.pages | sort: 'linkOrder' %}
 <nav class="navbar">
   <div class="navbar__logo">
     <a href="{{ '' | relative_url }}">
       <img src="{{ '/assets/logo-text.png' | relative_url }}" />
     </a>
   </div>
-  {% for node in sorted %}
+  {% for node in pagesSorted %}
     {% if node.link %}
       <div class="navbar__item navbar__link{% if node.url == page.url %} navbar__link--active{% endif %}">
         <a href="{{ node.url | relative_url }}">{{ node.link }}</a>

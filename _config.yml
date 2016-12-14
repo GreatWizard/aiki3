@@ -60,3 +60,4 @@ gems:
   - bourbon
   - neat
   - jekyll-autoprefixer
+  - jemoji
