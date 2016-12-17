@@ -24,3 +24,15 @@ L'Aiki3 est affilié à la [FFAAA](http://www.aikido.com.fr).
 [Tarifs et conditions d'adhésion]({{ 'club' | relative_url }})
 
 <a href="{{ '/assets/triptyque 2010-2011.pdf' | relative_url }}" target="_blank">Tryptique de présentation de l'Aiki3</a>
+
+## Actualités
+
+{% assign postsSorted = site.posts | sort: '-date' %}
+<ul>
+  {% for post in postsSorted %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
