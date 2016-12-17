@@ -1,9 +1,41 @@
 ---
 layout: page-full
-title: Étiquette et comportement
-link: Étiquette
-linkOrder: 40
+link: Venir pratiquer
+linkOrder: 30
 ---
+
+# Qui peut venir pratiquer ?
+
+Tous les niveaux sont acceptés, débutants ou expérimentés.
+
+Côté matériel, un kimono type judo et une ceinture blanche sont nécessaires pour la pratique. Pour les premiers cours, un survêtement en coton est accepté.
+
+# Plan d'accès
+
+Plan Dojo TOS KARATE-DO
+
+![]({{ '/assets/club_dojo.jpg' | relative_url }})
+
+# Tarifs
+
+## Côtisation annuelle
+
+- Adulte : 200 euros
+
+- Étudiant : 150 euros
+
+- Couple : 2 x 150 euros
+
+## Licence fédérale
+
+- Adulte : 35 euros
+
+- Enfant : 22 euros
+
+<em>Un certificat médical vous autorisant la pratique de l'Aïkido est nécessaire pour toute demande de licence.</em>
+
+# Etiquette 
+
 1. En montant sur le tapis et en le quittant, vous devez saluer.
 
 1. Saluez toujours en direction du SHOMEN et du fondateur.

@@ -17,8 +17,8 @@ html {
 
   &__item {
     text-align: center;
-    padding-left: $spacing-big;
-    padding-right: $spacing-big;
+    padding-left: $spacing-giant;
+    padding-right: $spacing-giant;
   }
 
   &__link {
@@ -55,8 +55,8 @@ html {
     padding-top: $spacing-small;
     padding-bottom: $spacing-small;
     border-right-style: solid;
-    border-color: $navbar-separator-color;
-    border-width: $navbar-separator-width;
+    /*border-color: $navbar-separator-color;*/
+    /*border-width: $navbar-separator-width;*/
     text-align: center;
 
     img {

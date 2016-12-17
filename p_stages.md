@@ -1,12 +1,10 @@
 ---
 layout: page-full
-title: Planning des stages
-link: Planning
-linkOrder: 60
+link: Stages
+linkOrder: 50
 ---
-## Stages dirigés par Patrick BENEZI, Shihan 7ème Dan
 
-### Saison 2016-2017
+# Stages 2016-2017 : Patrick BENEZI, Shihan 7ème Dan
 
 <object data="http://www.aikido-benezi.com/graphics/stage2016-2017/planning%202016-2017.pdf" type="application/pdf"  width="800px" height="600px">
   <p>

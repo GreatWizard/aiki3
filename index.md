@@ -1,7 +1,5 @@
 ---
 layout: page-with-side
-link: Accueil
-linkOrder: 0
 ---
 
 <div class="intro-style">
