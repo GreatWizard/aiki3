@@ -50,6 +50,7 @@ baseurl: ""
 url: ""
 # Build settings
 markdown: kramdown
+parse_block_html: true
 exclude:
   - Gemfile
   - Gemfile.lock

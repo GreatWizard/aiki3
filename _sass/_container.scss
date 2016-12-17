@@ -1,5 +1,5 @@
 html {
-  @include background(linear-gradient(to right, black, $color-background, $color-background) left no-repeat);
+  @include background(linear-gradient(to right, black, $color-background, $color-background, $color-background) left no-repeat);
 }
 
 .container {

@@ -1,0 +1,17 @@
+.intro-style {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  &__content {
+    margin-left: 40px;
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__img {
+    img {
+      width: 150px;
+    }
+  }
+}
