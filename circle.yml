@@ -3,7 +3,7 @@ dependencies:
     - sudo apt-get update
     - sudo apt-get install ncftp
   override:
-    - make install update
+    - gem install jekyll bundler; bundle install
 test:
   override:
     - make build
