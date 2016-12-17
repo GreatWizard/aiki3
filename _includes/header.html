@@ -1,5 +1,7 @@
-<header>
-  <h1>
-    {{ site.shortTitle | escape }}{% if page.title %} · {{ page.title | escape }}{% endif %}
-  </h1>
-</header>
+{% if page.title %}
+  <header>
+    <h1>
+      {{ site.shortTitle | escape }} · {{ page.title | escape }}
+    </h1>
+  </header>
+{% endif %}
