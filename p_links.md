@@ -1,10 +1,10 @@
 ---
 layout: page-full
-title: Les liens Aïkido
 link: Liens
-linkOrder: 80
+linkOrder: 40
 ---
-## Sites Web
+
+# A consulter :
 
 - <a href="http://www.aikido-benezi.com/" target="_blank">Le site de Patrick Benezi</a>
 
@@ -16,12 +16,8 @@ linkOrder: 80
 
 - <a href="http://www.toskarate.com/" target="_blank">Le site web du TOS Karate (qui nous fournit le dojo)</a>
 
-## Contacts
+# Documents à télécharger
 
-- <a href="mailto:patrick.benezi@noos.com">Patrick Benezi</a>
+- <a href="/assets/triptyque 2010-2011.pdf" target="_blank">Tryptique de présentation de l'Aiki3</a>
 
-- <a href="mailto:michel@aiki3.com">Michel Czerniak (prof de l'Aiki3)</a>
-
-- <a href="mailto:info@aiki3.com">Aiki3</a>
-
-- <a href="mailto:webmaster@aiki3.com">Webmaster</a>
+- <a href="http://www.aikido-benezi.com/graphics/stage2016-2017/planning%202016-2017.pdf" target="_blank">Le planning des stages 2016-2017 de Patrick Benezi (au format PDF)</a>
