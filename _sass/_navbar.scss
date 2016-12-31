@@ -24,29 +24,17 @@ html {
   &__link {
     line-height: $navbar-height;
     font-weight: bold;
-
-    a {
-      color: $navbar-link-color;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
+    color: $navbar-link-color;
 
     &:hover {
+      text-decoration: none;
       background-color: $navbar-thumb-color-selected;
-
-      a {
-        color: $navbar-link-hover-color;
-      }
+      color: $navbar-link-hover-color;
     }
 
     &--active {
       background-color: $navbar-thumb-color-selected;
-
-      a {
-        color: $navbar-link-active-color;
-      }
+      color: $navbar-link-active-color;
     }
   }
 
