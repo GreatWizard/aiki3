@@ -7,9 +7,9 @@
   </div>
   {% for node in pagesSorted %}
     {% if node.link %}
-      <div class="navbar__item navbar__link{% if node.url == page.url %} navbar__link--active{% endif %}">
-        <a href="{{ node.url | relative_url }}">{{ node.link }}</a>
-      </div>
+      <a href="{{ node.url | relative_url }}" class="navbar__item navbar__link{% if node.url == page.url %} navbar__link--active{% endif %}">
+        {{ node.link }}
+      </a>
     {% endif %}
   {% endfor %}
 </nav>
