@@ -2,39 +2,99 @@
 layout: page-full
 link: Venir pratiquer
 linkOrder: 30
+js:
+  - maps
 ---
 
-# Qui peut venir pratiquer ?
+# Que dois-je faire pour venir pratiquer ?
+
+## Faut-il avoir une expérience particulière ?
 
 Tous les niveaux sont acceptés, débutants ou expérimentés.
 
-Côté matériel, un kimono type judo et une ceinture blanche sont nécessaires pour la pratique. Pour les premiers cours, un survêtement en coton est accepté.
+## Faut-il apporter du matériel ?
 
-# Plan d'accès
+Un kimono type judo et une ceinture blanche sont nécessaires pour la pratique.
 
-Plan Dojo TOS KARATE-DO
+Pour les premiers cours, un survêtement en coton est accepté.
 
-![]({{ '/assets/club_dojo.jpg' | relative_url }})
+# Plan d'accès et horaires des cours
+
+<div class="container__row">
+  <div class="subcontainer__half">
+    <h2>Mardi</h2>
+    <p>
+      de 20h30 à 22h30
+      <br/>
+      Gymnase René Lacoste
+      <br/>
+      Rue Nicolas Camusat, 10000 Troyes
+    </p>
+  </div>
+
+  <div class="subcontainer__half">
+    <h2>Jeudi</h2>
+    <p>
+      de 20h00 à 22h00
+      <br/>
+      Dojo de la Tour Boileau
+      <br/>
+      19 Rue de la tour Boileau, 10000 Troyes
+    </p>
+  </div>
+</div>
+
+<div class="container__row">
+  <div class="subcontainer__half">
+    <div id="map_gymnase"></div>
+  </div>
+
+  <div class="subcontainer__half">
+    <div id="map_dojo"></div>
+  </div>
+</div>
+
+<script>
+  function initMap() {
+    new google.maps.Map(document.getElementById('map_gymnase'), {
+      center: {lat: 48.299158, lng: 4.083403},
+      zoom: 12
+    });
+    new google.maps.Map(document.getElementById('map_dojo'), {
+      center: {lat: 48.290960, lng: 4.068032},
+      zoom: 12
+    });
+  }
+</script>
 
 # Tarifs
 
-## Côtisation annuelle
+<div class="container__row">
+  <div class="subcontainer__half">
+    <h2>Côtisation annuelle</h2>
+    <ul>
+      <li>Adulte : 200 euros</li>
+      <li>Étudiant : 150 euros</li>
+      <li>Couple : 2 x 150 euros</li>
+    </ul>
+  </div>
 
-- Adulte : 200 euros
+  <div class="subcontainer__half">
+    <h2>Licence fédérale</h2>
+    <ul>
+      <li>Adulte : 35 euros</li>
+      <li>Enfant : 22 euros</li>
+    </ul>
+  </div>
+</div>
 
-- Étudiant : 150 euros
+<div class="container__row">
+  <em>Un certificat médical vous autorisant la pratique de l'Aïkido est nécessaire pour toute demande de licence.</em>
+</div>
 
-- Couple : 2 x 150 euros
+# Etiquette
 
-## Licence fédérale
-
-- Adulte : 35 euros
-
-- Enfant : 22 euros
-
-<em>Un certificat médical vous autorisant la pratique de l'Aïkido est nécessaire pour toute demande de licence.</em>
-
-# Etiquette 
+Bien qu'il y ait de nombreuses règles d'étiquette à assimiler, elles viendront naturellement avec une pratique régulière. Ne soyez pas vexé si on vous corrige un détail, car chacun est important pour la sécurité de tous et a un but  éducatif précis. L'Aïkido n'est pas une religion mais une éducation et un perfectionnement de l'esprit.
 
 1. En montant sur le tapis et en le quittant, vous devez saluer.
 
@@ -91,5 +151,3 @@ Vous pouvez inviter quiconque à venir regarder un cours à n'importe quel momen
 1. Ne parlez à personne se trouvant sur le tapis.
 
 1. Ne vous promenez pas pendant que le professeur montre ou corrige un mouvement.
-
-Bien qu'il y ait de nombreuses règles d'étiquette à assimiler, elles viendront naturellement avec une pratique régulière. Ne soyez pas vexé si on vous corrige un détail, car chacun est important pour la sécurité de tous et a un but  éducatif précis. L'AIKIDO n'est pas une religion mais une éducation et un perfectionnement de l'esprit.

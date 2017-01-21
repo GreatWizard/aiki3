@@ -3,9 +3,14 @@ html {
 }
 
 .container {
-  @include outer-container(100%);
-  padding-left: $spacing-lg;
-  padding-right: $spacing-lg;
+  @include outer-container;
+  margin-left: $spacing-lg;
+  margin-right: $spacing-lg;
+
+  &__row {
+    @include fill-parent;
+    margin-bottom: $spacing-lg;
+  }
 
   &__side {
     @include span-columns($container-size-side);
@@ -13,9 +18,19 @@ html {
 
   &__main {
     @include span-columns($container-size-main);
+    @include omega();
+
+    .subcontainer__half {
+      @include span-columns($container-size-main / 2);
+    }
   }
 
   &__full {
     @include span-columns($container-size-full);
+    @include omega();
+
+    .subcontainer__half {
+      @include span-columns($container-size-full / 2);
+    }
   }
 }
