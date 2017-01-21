@@ -23,13 +23,14 @@ $base-z-index: 0;
 
 // Colors
 $red: #eb2126;
-$white: #edecec;
+$white: #fff;
+$light-gray: #edecec;
 $medium-gray: #999;
 $light-gray: #ddd;
 $dark-gray: #333;
 
 // Font Colors
-$base-font-color: $white;
+$base-font-color: $light-gray;
 $action-color: $red;
 $heading-color: $red;
 
