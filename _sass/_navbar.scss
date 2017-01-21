@@ -4,8 +4,8 @@ html {
 
 .navbar {
   @include display(flex);
-  padding-left: $spacing-big;
-  padding-right: $spacing-big;
+  padding-left: $spacing-lg;
+  padding-right: $spacing-lg;
   height: $navbar-height;
   background-color: $navbar-background-color;
   box-shadow: 0px 2px 4px $navbar-shadow-color;
@@ -17,15 +17,18 @@ html {
 
   &__item {
     text-align: center;
-    padding-left: $spacing-giant;
-    padding-right: $spacing-giant;
+    padding-left: $spacing-xl;
+    padding-right: $spacing-xl;
   }
 
-  &__link {
+  a.navbar__link {
     line-height: $navbar-height;
     font-weight: bold;
     color: $navbar-link-color;
+    transition: none;
 
+    &:active,
+    &:focus,
     &:hover {
       text-decoration: none;
       background-color: $navbar-thumb-color-selected;
@@ -40,15 +43,15 @@ html {
 
   &__logo {
     @include span-columns(2);
-    padding-top: $spacing-small;
-    padding-bottom: $spacing-small;
+    padding-top: $spacing-sm;
+    padding-bottom: $spacing-sm;
     border-right-style: solid;
-    /*border-color: $navbar-separator-color;*/
-    /*border-width: $navbar-separator-width;*/
     text-align: center;
+    margin-right: 0;
+    padding-right: 20px;
 
     img {
-      @include calc(height, "#{$navbar-height} - (2 * #{$spacing-small})");
+      @include calc(height, "#{$navbar-height} - (2 * #{$spacing-sm})");
     }
   }
 }

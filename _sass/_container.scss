@@ -1,11 +1,9 @@
 html {
-  @include background(linear-gradient(to right, black, $color-background, $color-background, $color-background) left no-repeat);
+  background-color: $base-background-color;
 }
 
 .container {
   @include outer-container(100%);
-  margin-left: $spacing-big;
-  margin-right: $spacing-big;
 
   &__3 {
     @include span-columns(2);

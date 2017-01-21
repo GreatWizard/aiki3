@@ -2,11 +2,11 @@
 layout: page-with-side
 ---
 
-<div class="intro-style">
- <div class="intro-style__content intro-style__img">
+<div class="intro">
+ <div class="intro__content intro__img">
    <img src="{{ '/assets/logo_aiki3_complete.png' | relative_url }}" alt="Aiki3" />
  </div>
- <div class="intro-style__content intro-style__body">
+ <div class="intro__content intro__body">
    <h1>Pratiquer l'aïkido à Troyes</h1>
    <p>L'Aiki3 est un club d'aïkido sur Troyes.</p>
    <p>Les cours sont assurés par Michel Czerniak, ceinture noire 6e Dan, diplômé d'État (Diplôme n° 75970723).</p>
