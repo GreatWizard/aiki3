@@ -4,16 +4,18 @@ html {
 
 .container {
   @include outer-container(100%);
+  padding-left: $spacing-lg;
+  padding-right: $spacing-lg;
 
-  &__3 {
-    @include span-columns(2);
+  &__side {
+    @include span-columns($container-size-side);
   }
 
-  &__9 {
-    @include span-columns(10);
+  &__main {
+    @include span-columns($container-size-main);
   }
 
-  &__12 {
-    @include span-columns(12);
+  &__full {
+    @include span-columns($container-size-full);
   }
 }

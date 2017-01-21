@@ -74,6 +74,12 @@ $navbar-height: 40px;
 
 $footer-height: 20px;
 
+// Containers
+
+$container-size-full: 12;
+$container-size-main: 10;
+$container-size-side: $container-size-full - $container-size-main;
+
 // z-index
 
 $z-index-scale: navbar;
