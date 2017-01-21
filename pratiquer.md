@@ -1,6 +1,6 @@
 ---
 layout: page-full
-link: Venir pratiquer
+link: Pratiquer
 linkOrder: 30
 ---
 
