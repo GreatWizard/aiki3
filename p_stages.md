@@ -6,15 +6,13 @@ linkOrder: 50
 
 # Stages 2016-2017 : Patrick BENEZI, Shihan 7ème Dan
 
-<object data="http://www.aikido-benezi.com/graphics/stage2016-2017/planning%202016-2017.pdf" type="application/pdf"  width="800px" height="600px">
-  <p>
-    <a href="http://www.aikido-benezi.com/graphics/stage2016-2017/planning%202016-2017.pdf" target="_blank">
-      <strong>
-        Télécharger le fichier "planning 2016-2017.pdf"
-      </strong>
-    </a>
-  </p>
-</object>
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=2e6mqib6h7mus3ekj4kjas6cdk%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=Europe%2FParis" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+<a href="http://www.aikido-benezi.com/graphics/stage2016-2017/planning%202016-2017.pdf" target="_blank">
+  <strong>
+    Télécharger le fichier "planning 2016-2017.pdf"
+  </strong>
+</a>
 
 Pour tout renseignement, veuillez contactez Patrick BENEZI :
 
@@ -22,6 +20,6 @@ Pour tout renseignement, veuillez contactez Patrick BENEZI :
 
 - Site : <a href="http://www.aikido-benezi.com" target="_blank">http://www.aikido-benezi.com</a>
 
-- E-mail : <a href="mailto:patrick.benezi@noos.com">PATRICK.BENEZI@noos.fr</a>
+- E-mail : <a href="mailto:patrick.benezi@noos.com">patrick.benezi@sfr.fr</a>
 
-- Possibilité pour les pratiquants de dormir au dojo
+- <a href="http://www.aikido-benezi.com/abo_news/index.php" target="_blank">S'inscrire à la newsletter pour recevoir les affiches des stages</a>
