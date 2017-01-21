@@ -29,7 +29,7 @@ layout: page-with-side
 <ul>
   {% for post in postsSorted %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
