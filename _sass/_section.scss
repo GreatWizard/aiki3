@@ -1,4 +1,8 @@
 .section {
   margin-top: $spacing-md;
   margin-bottom: $spacing-md;
+
+  p {
+    margin: 0;
+  }
 }
