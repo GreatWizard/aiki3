@@ -73,9 +73,9 @@ $footer-height: 40px;
 
 // Containers
 
-$container-size-full: 12;
+$container-size-full: $grid-columns;
 $container-size-main: 10;
-$container-size-side: $container-size-full - $container-size-main;
+$container-size-side: $grid-columns - $container-size-main;
 
 // z-index
 
