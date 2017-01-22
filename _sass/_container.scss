@@ -9,6 +9,7 @@ html {
 
   &__row {
     @include fill-parent;
+    @include row;
     margin-bottom: $spacing-lg;
   }
 
@@ -18,7 +19,6 @@ html {
 
   &__main {
     @include span-columns($container-size-main);
-    @include omega();
 
     .subcontainer__half {
       @include span-columns($container-size-main / 2);
@@ -27,7 +27,6 @@ html {
 
   &__full {
     @include span-columns($container-size-full);
-    @include omega();
 
     .subcontainer__half {
       @include span-columns($container-size-full / 2);
