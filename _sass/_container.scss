@@ -1,3 +1,11 @@
+@mixin container-division($size) {
+  @include span-columns($size);
+
+  .subcontainer__half {
+    @include span-columns($size / 2);
+  }
+}
+
 html {
   background-color: $base-background-color;
 }
@@ -18,18 +26,10 @@ html {
   }
 
   &__main {
-    @include span-columns($container-size-main);
-
-    .subcontainer__half {
-      @include span-columns($container-size-main / 2);
-    }
+    @include container-division($container-size-main);
   }
 
   &__full {
-    @include span-columns($container-size-full);
-
-    .subcontainer__half {
-      @include span-columns($container-size-full / 2);
-    }
+    @include container-division($container-size-full);
   }
 }
