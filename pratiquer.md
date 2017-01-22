@@ -23,24 +23,20 @@ Pour les premiers cours, un survêtement en coton est accepté.
 <div class="container__row">
   <div class="subcontainer__half">
     <h2>Mardi</h2>
-    <p>
-      de 20h30 à 22h30
-      <br/>
-      Gymnase René Lacoste
-      <br/>
-      Rue Nicolas Camusat, 10000 Troyes
-    </p>
+    <div class="section">
+      <p>de 20h30 à 22h30</p>
+      <p>Gymnase René Lacoste</p>
+      <p>Rue Nicolas Camusat, 10000 Troyes</p>
+    </div>
   </div>
 
   <div class="subcontainer__half">
     <h2>Jeudi</h2>
-    <p>
-      de 20h00 à 22h00
-      <br/>
-      Dojo de la Tour Boileau
-      <br/>
-      19 Rue de la tour Boileau, 10000 Troyes
-    </p>
+    <div class="section">
+      <p>de 20h00 à 22h00</p>
+      <p>Dojo de la Tour Boileau</p>
+      <p>19 Rue de la tour Boileau, 10000 Troyes</p>
+    </div>
   </div>
 </div>
 
@@ -55,7 +51,7 @@ Pour les premiers cours, un survêtement en coton est accepté.
 </div>
 
 <script>
-  function initMap() {
+  function initMaps() {
     new google.maps.Map(document.getElementById('map_gymnase'), {
       center: {lat: 48.299158, lng: 4.083403},
       zoom: 12
