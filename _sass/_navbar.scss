@@ -25,12 +25,12 @@ html {
     line-height: $navbar-height;
     font-weight: bold;
     color: $navbar-link-color;
+    text-decoration: none;
     transition: background-color $base-duration $base-timing;
 
     &:active,
     &:focus,
     &:hover {
-      text-decoration: none;
       background-color: $navbar-thumb-color-selected;
       color: shade($navbar-link-active-color, 10%);
     }
