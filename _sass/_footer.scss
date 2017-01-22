@@ -5,5 +5,5 @@
 }
 
 .footer-pusher {
-  @include calc(min-height, "100vh - (#{$footer-height} + #{$spacing-md} + #{$navbar-height} + #{$spacing-lg})");
+  @include calc(min-height, "100vh - (#{$footer-height} + #{$navbar-height} + #{$spacing-lg})");
 }
