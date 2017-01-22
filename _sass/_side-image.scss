@@ -1,0 +1,14 @@
+.side-image {
+  @include outer-container;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  &__image {
+    @include span-columns(2);
+  }
+
+  &__content {
+    @include span-columns(10);
+    vertical-align: middle;
+  }
+}
