@@ -3,10 +3,6 @@ layout: page-full
 link: Le club
 linkOrder: 20
 ---
-
-# L'Aïki3
-
-
 # L'enseignement
 
 ![](/assets/club_benezi_photo.jpg) Patrick Benezi : Irimi Nage

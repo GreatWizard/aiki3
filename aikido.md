@@ -3,13 +3,13 @@ layout: page-full
 link: L'aïkido
 linkOrder: 10
 ---
-## Un peu d'histoire
+# Un peu d'histoire
 
 ![O'Sensei Ueshiba Morihei]({{ '/assets/presentation_morihei_portrait.gif' | relative_url }})
 
 Si l'Aïkido plonge ses racines à la source des différentes techniques de combat du moyen-âge japonais, la synthèse de ses techniques a été apportée par le Maître Ueshiba Morihei, qui y a apporté une dimension mentale, voire métaphysique. Le Maître Ueshiba (1883-1969) avait étudié plusieurs techniques de combat à mains nues et aux armes. Il bénéficia de l'enseignement du Maître Takeda, dépositaire de l'école Daito dans la lignée de l'Aiki-Jutsu, et fut également très influencé par l'enseignement religieux, notamment du moine Deguchi. C'est donc dans cet ensemble, tout à la fois imprégné de techniques guerrières, de religion et de mystique, qu'il faut voir la naissance de ce nouvel art martial. En effet, le côté technique pure ne le satisfaisait pas, et il recherchait une nouvelle dimension : celle-ci serait faite, de l'harmonie (Ai) entre les énergies (Ki)ou mieux, entre soi-même et "l'énergie cosmique". En 1925, le maître subit une expérience, que certains ont nommée illumination, et qui ouvrira la voie à l'Aïkido moderne. Voici ce qu'il en dit: "A ce moment je compris... le Budo (voie du guerrier), ce n'est pas abattre un adversaire par notre propre force, ni un outil pour mener le monde à la destruction par les armes. Le vrai Budo est d'accepter l'esprit de l'univers, de garder la paix du monde..." et ce n'est qu'après la guerre que Maître Ueshiba accepte de diffuser l'enseignement de son art martial, qu'il nomme Aïkido (la voie, le tao, la vie par l'harmonie des esprits, des énergies).
 
-## Définition de l'Aïkido
+# Définition de l'Aïkido
 
 L'Aïkido, malgré l'évolution moderne, reste un Art Martial et non un sport codifié en vue d'une compétition.
 Dans l'étymologie du mot "Aïkido" nous retrouvons, Aï : faire un ; unité; rassembler les contraires … d'où amour et harmonie. Le recours à la facilité conduirait à une interprétation qui ferait dire que l'amour et l'harmonie sont prétexte au rejet du martial. "Si vis pacem para bellum" = si tu veux la paix, prépare la guerre. Exactement, il faut comprendre, si tu veux la paix, prépare des guerriers. En Aïkido, il faut donc sans relâche travailler, éduquer, se soumettre à rude épreuve. L'Aïki se conquiert. Pas à pas la progression (kotaï, jutaï, ekitaï, kitaï) permet à la violence d'être transcendée. Le soldat "Aïki" est enfin devenu un guerrier.
@@ -18,17 +18,17 @@ L'Aïkido n'est pas une self-défense. Si tel était le cas, cela entraverait le
 
 L'être vivant est une énergie animée par l'esprit, c'est l'énergie, qui a orienté la matière elle-même énergie vers le phénomène vital. Ainsi l'être vivant est une énergie animée par elle-même de même que l'énergie primitive, il y a donc productions des êtres par modifications de l'Être. KI est donc à la fois cosmique et terrestre. Cosmique étant énergie subtile, immatérielle, vapeur, le ciel. Terrestre étant matière énergie, matérielle, riz, la terre. Aï et KI sont maintenant connus. C'est la voie des étoiles, le chemin de Compostelle, la route est longue c'est incontestable. Alors en route sous le regard d'O'Senseï. "La connaissance ne s'obtient que lorsqu'on st capable de la découvrir".
 
-## Originalité de l'Aïkido
+# Originalité de l'Aïkido
 
 Outre les techniques, le pratiquant d'Aïkido apprend à respirer par l'abdomen, à sentir l'équilibre du corps à partir du centre de gravité, situé légèrement sous l'ombilic. C'est par cette respiration, via ce centre de gravité, qu'on acquiert la faculté de ressentir le "Ki". Cette énergie, partant du centre de gravité, est rendue efficace grâce à la technique, est amplifiée par la respiration abdominale, et s'applique dans la spontanéité et l'harmonie avec le mouvement de l'adversaire.  Sur le plan pratique, les mouvements permettent des projections de l'adversaire, des immobilisations, des clés sur différentes articulations. On peut pratiquer contre un ou plusieurs adversaires, contre couteau, sabre ou bâton. La douzaine de techniques fondamentales permet des milliers de variations.
 
-## En conclusion
+# En conclusion
 
 ![O'Sensei Ueshiba Morihei]({{ '/assets/presentation_morihei_photo.jpg' | relative_url }})
 
 S'il fallait résumer les caractéristiques de l'Aïkido en quelques mots-clés, on se doit d'insister sur ses qualités externes (techniques, efficacité, emploi de l'énergie de l'autre, esthétisme), internes (équilibre, emploi du Ki, maîtrise de soi, respiration) et morales (défense proportionnelle à l'attaque, non-agressivité, recherche du non-combat). Enfin, le pratiquant essaiera de méditer les paroles d'Osawa K. Shihan (reprises dans Aïkido, étiquette et transmission, de Tamura N. Shihan, Éditions du Soleil Levant, 1992), qui compare la pratique à un miroir, qui réfléchit le monde extérieur sans s'y attacher : "L'attachement fait naître l'esprit combatif; or, l'Aïkido est une recherche de la liberté véritable, recherche qui se fait en pétrissant le corps comme un bon boulanger pétrit son pain, et non une méthode de destruction. Dans l'Aïkido, il y a la liberté du miroir."  Définition largement inspirée de textes dus à Monsieur Pierre Chassang (Aïkido, dis-nous ce que tu sais !) et de l'article du Dr Jean-Paul Engelbeen paru dans la revue "Équilibre".
 
-## Lexique
+# Lexique
 
 Ashi	La jambe
 
