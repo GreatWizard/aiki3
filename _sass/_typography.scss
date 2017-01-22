@@ -5,6 +5,19 @@ body {
   line-height: $base-line-height;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  left: -2px;
+  font-family: $heading-font-family;
+  line-height: $heading-line-height;
+  margin: 0 0 $tiny-spacing;
+}
+
 h6 {
   font-size: modular-scale(1);
 }
@@ -28,16 +41,6 @@ h2 {
 h1 {
   font-size: modular-scale(6);
   color: $heading-color;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $heading-font-family;
-  line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }
 
