@@ -48,6 +48,9 @@ keywords:
   - tradition
 baseurl: ""
 url: ""
+facebook_url: ""
+twitter_url: ""
+youtube_url: ""
 google_maps_key: "AIzaSyDam2nPRQoiGNPRAl1bLWpGTjYacbK2mnM"
 # Build settings
 markdown: kramdown
