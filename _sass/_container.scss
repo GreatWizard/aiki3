@@ -8,6 +8,9 @@
 
 html {
   background-color: $base-background-color;
+  background-image: url("/assets/background.png");
+  background-repeat: repeat-y;
+  background-position: right;
 }
 
 .container {
