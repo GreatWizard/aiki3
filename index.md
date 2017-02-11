@@ -22,7 +22,9 @@ layout: page-side
 <ul>
   {% for post in postsSorted %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </p>
       {{ post.excerpt }}
     </li>
   {% endfor %}
