@@ -6,15 +6,31 @@ linkOrder: 40
 
 # A consulter
 
-- <a href="http://www.aikido-benezi.com/" target="_blank">Le site de Patrick Benezi</a>
+<div class="links">
+  <a href="http://www.aikido-benezi.com/" target="_blank">
+    <img src="/assets/link_benezi.png" width="150px" height="150px">
+  </a>
+  <a href="http://www.aikido.com.fr/" target="_blank">
+    <img src="/assets/link_ffaaa.png" width="150px" height="150px">
+  </a>
+  <a href="http://www.christiantissier.com/" target="_blank">
+    <img src="/assets/link_tissier.png" width="150px" height="150px">
+  </a>
+  <a href="http://www.yamaguchi-aikido.com/html/menu.html" target="_blank">
+    <img src="/assets/link_yamaguchi.jpg" width="150px" height="150px">
+  </a>
+  <a href="http://www.toskarate.com/" target="_blank">
+    <img src="/assets/link_toskarate.png" width="150px" height="150px">
+  </a>
+</div>
 
-- <a href="http://www.aikido.com.fr/" target="_blank">Le site officiel de la FFAAA</a>
-
-- <a href="http://www.christiantissier.com/" target="_blank">Le site officiel de Maître Christian Tissier</a>
-
-- <a href="http://www.yamaguchi-aikido.com/html/menu.html" target="_blank">Le site officiel de Maître Yamaguchi</a>
-
-- <a href="http://www.toskarate.com/" target="_blank">Le site web du TOS Karate (qui nous fournit le dojo)</a>
+<!--
+Le site de Patrick Benezi
+Le site officiel de la FFAAA
+Le site officiel de Maître Christian Tissier
+Le site officiel de Maître Yamaguchi
+Le site web du TOS Karate (qui nous fournit le dojo)
+-->
 
 # Documents à télécharger
 

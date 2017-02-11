@@ -5,6 +5,7 @@
 
   &__image {
     @include span-columns(2);
+    margin-top: 40px;
   }
 
   &__content {
