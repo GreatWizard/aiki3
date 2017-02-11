@@ -24,6 +24,7 @@ html {
 
   &__side {
     @include span-columns($container-size-side);
+    @include content-height;
     background-color: $dark-background-color;
     padding-left: $spacing-lg;
     padding-right: $spacing-lg;

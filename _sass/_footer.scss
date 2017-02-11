@@ -1,5 +1,5 @@
 .footer-pusher {
-  @include calc(min-height, "100vh - (#{$footer-height} + #{$spacing-lg} + #{$navbar-height} + #{$spacing-lg})");
+  @include content-height;
 }
 
 // Uncomment this for a sticky footer.

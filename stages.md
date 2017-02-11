@@ -20,6 +20,6 @@ Pour tout renseignement, veuillez contactez Patrick BENEZI :
 
 - Site : <a href="http://www.aikido-benezi.com" target="_blank">http://www.aikido-benezi.com</a>
 
-- E-mail : <a href="mailto:patrick.benezi@noos.com">patrick.benezi@sfr.fr</a>
+- E-mail : <a href="mailto:patrick.benezi@sfr.fr">patrick.benezi@sfr.fr</a>
 
 - <a href="http://www.aikido-benezi.com/abo_news/index.php" target="_blank">S'inscrire à la newsletter pour recevoir les affiches des stages</a>
