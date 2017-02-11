@@ -1,11 +1,3 @@
-@mixin container-division($size) {
-  @include span-columns($size);
-
-  .subcontainer__half {
-    @include span-columns($size / 2);
-  }
-}
-
 html {
   background-color: $base-background-color;
   background-image: url("/assets/background.png");
@@ -14,7 +6,7 @@ html {
 }
 
 .container {
-  @include outer-container(100%);
+  @include outer-container;
 
   &__row {
     @include fill-parent;
@@ -22,33 +14,16 @@ html {
     margin-bottom: $spacing-sm;
   }
 
-  &__side {
-    @include span-columns($container-size-side);
-    @include content-height;
-    background-color: $dark-background-color;
-    padding-left: $spacing-lg;
-    padding-right: $spacing-lg;
-  }
-
-  &__main {
-    @include container-division($container-size-main);
-    margin-right: $spacing-lg;
-  }
-
   &__full {
-    margin-left: $spacing-lg;
-    margin-right: $spacing-lg;
-    @include container-division($container-size-full);
-  }
+    @include span-columns($grid-columns);
 
-  &__fullclip {
-    margin-left: 0px;
-    margin-right: $spacing-lg;
-    @include container-division($container-size-full);
-
-    .content
-    {
-      padding-left: $spacing-lg;
+    .subcontainer__half {
+      @include media($screen-mobile) {
+        @include span-columns($grid-columns);
+      }
+      @include media($screen-desktop) {
+        @include span-columns($grid-columns / 2);
+      }
     }
   }
 }

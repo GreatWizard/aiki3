@@ -1,6 +1,11 @@
-// Breakpoints
-$medium-screen: 600px;
-$large-screen: 900px;
+// Grid settings
+$column: 90px;
+$gutter: 10px;
+$grid-columns: 12;
+$max-width: 1100px;
+
+$screen-mobile: new-breakpoint(max-width 480px);
+$screen-desktop: new-breakpoint(min-width 850px);
 
 // Typography
 $sans-serif: 'Roboto', sans-serif;
@@ -74,12 +79,6 @@ $navbar-height: 40px;
 
 $footer-background-color: $base-background-color;
 $footer-height: 40px;
-
-// Containers
-
-$container-size-full: $grid-columns;
-$container-size-main: 10;
-$container-size-side: $grid-columns - $container-size-main;
 
 // z-index
 

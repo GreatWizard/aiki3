@@ -20,7 +20,6 @@ Ensuite, un kimono type judo et une ceinture blanche sont nécessaires pour la p
 # Plan d'accès et horaires des cours
 
 <div class="container__row">
-
   <div class="subcontainer__half">
     <h4>Mardi</h4>
     <div class="section">
@@ -28,6 +27,7 @@ Ensuite, un kimono type judo et une ceinture blanche sont nécessaires pour la p
       <p>Gymnase René Lacoste</p>
       <p>Rue Nicolas Camusat, 10000 Troyes</p>
     </div>
+    <div id="map_gymnase" class="map"></div>
   </div>
 
   <div class="subcontainer__half">
@@ -37,15 +37,6 @@ Ensuite, un kimono type judo et une ceinture blanche sont nécessaires pour la p
       <p>TOS KARATE-DO</p>
       <p>19 Rue de la tour Boileau, 10000 Troyes</p>
     </div>
-  </div>
-</div>
-
-<div class="container__row">
-  <div class="subcontainer__half">
-    <div id="map_gymnase" class="map"></div>
-  </div>
-
-  <div class="subcontainer__half">
     <div id="map_dojo" class="map"></div>
   </div>
 </div>

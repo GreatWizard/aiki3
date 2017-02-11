@@ -1,11 +1,17 @@
 .side-image {
   @include outer-container;
-  margin-top: 50px;
-  margin-bottom: 50px;
+
+  &--xl {
+    margin-top: $spacing-xl;
+    margin-bottom: $spacing-xl;
+
+    img {
+      margin-top: $spacing-xl;
+    }
+  }
 
   &__image {
     @include span-columns(2);
-    margin-top: 40px;
   }
 
   &__content {

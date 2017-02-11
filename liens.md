@@ -1,5 +1,5 @@
 ---
-layout: page-fullclip
+layout: default
 link: Liens
 linkOrder: 40
 links:
@@ -29,21 +29,23 @@ docs:
   <div class="links">
     {% for node in page.links %}
       <a href="{{ node.url }}" target="_blank">
-        <img src="{{ node.image }}" alt="{{ node.title }}" title="{{ node.title }}" />
+        <img src="{{ node.image | relative_url }}" alt="{{ node.title }}" title="{{ node.title }}" />
       </a>
     {% endfor %}
   </div>
 {% endif %}
 
-{% if page.docs %}
-  <div class="content">
-    <h4>Documents à télécharger</h4>
-    <ul>
-      {% for node in page.docs %}
-        <li>
-          {{ node.title }} : <a href="{{ node.url }}" target="_blank">Télécharger</a>
-        </li>
-      {% endfor %}
-    </ul>
+<div class="container">
+  <div class="container__full">
+    {% if page.docs %}
+      <h4>Documents à télécharger</h4>
+      <ul>
+        {% for node in page.docs %}
+          <li>
+            {{ node.title }} : <a href="{{ node.url }}" target="_blank">Télécharger</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
-{% endif %}
+</div>
