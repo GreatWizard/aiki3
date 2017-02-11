@@ -4,6 +4,7 @@ link: Venir pratiquer
 linkOrder: 30
 js:
   - maps
+  - init-maps
 ---
 
 # Que dois-je faire pour venir pratiquer ?
@@ -40,19 +41,6 @@ Ensuite, un kimono type judo et une ceinture blanche sont nécessaires pour la p
     <div id="map_dojo" class="map"></div>
   </div>
 </div>
-
-<script>
-  function initMaps() {
-    new google.maps.Map(document.getElementById('map_gymnase'), {
-      center: {lat: 48.299158, lng: 4.083403},
-      zoom: 18
-    });
-    new google.maps.Map(document.getElementById('map_dojo'), {
-      center: {lat: 48.290960, lng: 4.068032},
-      zoom: 18
-    });
-  }
-</script>
 
 # Tarifs
 

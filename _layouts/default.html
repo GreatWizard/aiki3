@@ -45,6 +45,10 @@
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     {% elsif name == 'maps' %}
       <script async defer src="https://maps.googleapis.com/maps/api/js?key={{site.google_maps_key}}&callback=initMaps"></script>
+    {% elsif name == 'init-maps' %}
+      <script src="{{ '/js/init-maps.js' | relative_url }}"></script>
+    {% elsif name == 'tabs' %}
+      <script src="{{ '/js/tabs.js' | relative_url }}"></script>
     {% endif %}
   {% endfor %}
   {% if jekyll.environment == 'production' and site.google_analytics %}

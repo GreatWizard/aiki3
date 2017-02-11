@@ -32,7 +32,6 @@ $base-z-index: 0;
 $red: #ec2027;
 $white: #fff;
 $light-gray: #edecec;
-$medium-gray: #999;
 $base-gray: #333;
 $dark-gray: #121212;
 
@@ -83,6 +82,13 @@ $footer-height: 40px;
 // Side
 
 $side-width: 240px;
+
+// Tabs
+
+$tab-link-color: #313131;
+$tab-content-background: #d3d3d3;
+$tab-active-background: $tab-content-background;
+$tab-inactive-color: #313131;
 
 // z-index
 
