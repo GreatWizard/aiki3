@@ -1,5 +1,5 @@
 html {
-  @include calc(margin-top, "(#{$navbar-height} + #{$spacing-lg})");
+  @include calc(margin-top, $navbar-height);
 }
 
 .navbar {
