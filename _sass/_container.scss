@@ -14,9 +14,7 @@ html {
 }
 
 .container {
-  @include outer-container;
-  margin-left: $spacing-lg;
-  margin-right: $spacing-lg;
+  @include outer-container(100%);
 
   &__row {
     @include fill-parent;
@@ -26,13 +24,19 @@ html {
 
   &__side {
     @include span-columns($container-size-side);
+    background-color: $dark-background-color;
+    padding-left: $spacing-lg;
+    padding-right: $spacing-lg;
   }
 
   &__main {
     @include container-division($container-size-main);
+    margin-right: $spacing-lg;
   }
 
   &__full {
+    margin-left: $spacing-lg;
+    margin-right: $spacing-lg;
     @include container-division($container-size-full);
   }
 }
