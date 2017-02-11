@@ -28,9 +28,11 @@ docs:
 {% if page.links %}
   <div class="links">
     {% for node in page.links %}
-      <a href="{{ node.url }}" target="_blank">
-        <img src="{{ node.image | relative_url }}" alt="{{ node.title }}" title="{{ node.title }}" />
-      </a>
+      <div class="links__link">
+        <a href="{{ node.url }}" target="_blank">
+          <img src="{{ node.image | relative_url }}" alt="{{ node.title }}" title="{{ node.title }}" />
+        </a>
+      </div>
     {% endfor %}
   </div>
 {% endif %}

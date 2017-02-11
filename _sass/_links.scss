@@ -2,14 +2,19 @@
   text-align: center;
   background-color: $dark-background-color;
 
-  margin-left: 0px;
-  padding-left: $spacing-lg;
-  padding-right: $spacing-lg;
   padding-top: $spacing-xl;
   padding-bottom:$spacing-xl;
 
-  img {
-    height: 150px;
+  .links__link {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: $spacing-lg;
+    }
+
+    img {
+      height: 150px;
+    }
   }
 
   /*a {
