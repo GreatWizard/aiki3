@@ -1,5 +1,5 @@
 ---
-layout: page-full
+layout: page-fullclip
 link: Liens
 linkOrder: 40
 links:
@@ -19,14 +19,13 @@ links:
     url: http://www.toskarate.com
     image: /assets/link_toskarate.jpg
 docs:
-  - title: Tryptique de présentation de l'Aiki3
+  - title: Tryptique de présentation de l'Aiki3 (pdf)
     url: /assets/triptyque 2010-2011.pdf
-  - title: Le planning des stages 2016-2017 de Patrick Benezi (au format PDF)
+  - title: Le planning des stages 2016-2017 de Patrick Benezi (pdf)
     url: http://www.aikido-benezi.com/graphics/stage2016-2017/planning%202016-2017.pdf
 ---
 
 {% if page.links %}
-  <h1>A consulter</h1>
   <div class="links">
     {% for node in page.links %}
       <a href="{{ node.url }}" target="_blank">
@@ -37,12 +36,14 @@ docs:
 {% endif %}
 
 {% if page.docs %}
-  <h1>Documents à télécharger</h1>
-  <ul>
-    {% for node in page.docs %}
-      <li>
-        <a href="{{ node.url }}" target="_blank">{{ node.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="content">
+    <h4>Documents à télécharger</h4>
+    <ul>
+      {% for node in page.docs %}
+        <li>
+          {{ node.title }} : <a href="{{ node.url }}" target="_blank">Télécharger</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {% endif %}

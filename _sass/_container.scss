@@ -39,4 +39,15 @@ html {
     margin-right: $spacing-lg;
     @include container-division($container-size-full);
   }
+
+  &__fullclip {
+    margin-left: 0px;
+    margin-right: $spacing-lg;
+    @include container-division($container-size-full);
+
+    .content
+    {
+      padding-left: $spacing-lg;
+    }
+  }
 }
