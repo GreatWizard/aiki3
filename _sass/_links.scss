@@ -1,7 +1,7 @@
 .links {
   text-align: center;
   background-color: $dark-background-color;
-  
+
   margin-left: 0px;
   padding-left: $spacing-lg;
   padding-right: $spacing-lg;
@@ -11,4 +11,9 @@
   img {
     height: 150px;
   }
+
+  /*a {
+    margin-right: $spacing-lg;
+    TODO : à remettre si on arrive à faire marcher un margin vertical
+  }*/
 }
