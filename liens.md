@@ -4,7 +4,7 @@ link: Liens
 linkOrder: 40
 ---
 
-# A consulter :
+# A consulter
 
 - <a href="http://www.aikido-benezi.com/" target="_blank">Le site de Patrick Benezi</a>
 

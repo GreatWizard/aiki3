@@ -21,7 +21,7 @@ html {
   &__row {
     @include fill-parent;
     @include row;
-    margin-bottom: $spacing-lg;
+    margin-bottom: $spacing-sm;
   }
 
   &__side {
