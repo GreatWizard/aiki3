@@ -16,6 +16,8 @@ html {
 
   &__full {
     @include span-columns($grid-columns);
+    padding-left: $spacing-lg;
+    padding-right: $spacing-lg;
 
     .subcontainer__half {
       @include media($screen-mobile) {
