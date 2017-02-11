@@ -7,10 +7,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   position: relative;
   left: -2px;
   font-family: $heading-font-family;
@@ -28,6 +25,8 @@ h5 {
 
 h4 {
   font-size: modular-scale(3);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -41,7 +40,10 @@ h2 {
 h1 {
   font-size: modular-scale(6);
   color: $heading-color;
-  margin: 0 0 $small-spacing;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom:  $small-spacing;
+  margin-top: $base-spacing;
 }
 
 p {
@@ -51,6 +53,7 @@ p {
 a {
   color: $action-color;
   transition: color $base-duration $base-timing;
+  text-decoration: none;
 
   &:active,
   &:focus,
