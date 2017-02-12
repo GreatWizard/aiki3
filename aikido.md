@@ -240,7 +240,7 @@ definitions:
 
 <div class="side-image">
   <div class="side-image__image">
-    <img src="{{ '/assets/presentation_morihei_portrait.gif' | relative_url }}" alt="O'Sensei Ueshiba Morihei" title="O'Sensei Ueshiba Morihei" />
+    <img src="{{ '/assets/presentation_osensei1.jpg' | relative_url }}" alt="O'Sensei Ueshiba Morihei" title="O'Sensei Ueshiba Morihei" />
   </div>
   <div class="side-image__content">
     <p>Si l'Aïkido plonge ses racines à la source des différentes techniques de combat du moyen-âge japonais, la synthèse de ses techniques a été apportée par le Maître Ueshiba Morihei, qui y a apporté une dimension mentale, voire métaphysique. Le Maître Ueshiba (1883-1969) avait étudié plusieurs techniques de combat à mains nues et aux armes. Il bénéficia de l'enseignement du Maître Takeda, dépositaire de l'école Daito dans la lignée de l'Aiki-Jutsu, et fut également très influencé par l'enseignement religieux, notamment du moine Deguchi. C'est donc dans cet ensemble, tout à la fois imprégné de techniques guerrières, de religion et de mystique, qu'il faut voir la naissance de ce nouvel art martial. En effet, le côté technique pure ne le satisfaisait pas, et il recherchait une nouvelle dimension : celle-ci serait faite, de l'harmonie (Ai) entre les énergies (Ki)ou mieux, entre soi-même et "l'énergie cosmique". En 1925, le maître subit une expérience, que certains ont nommée illumination, et qui ouvrira la voie à l'Aïkido moderne. Voici ce qu'il en dit: "A ce moment je compris... le Budo (voie du guerrier), ce n'est pas abattre un adversaire par notre propre force, ni un outil pour mener le monde à la destruction par les armes. Le vrai Budo est d'accepter l'esprit de l'univers, de garder la paix du monde..." et ce n'est qu'après la guerre que Maître Ueshiba accepte de diffuser l'enseignement de son art martial, qu'il nomme Aïkido (la voie, le tao, la vie par l'harmonie des esprits, des énergies).</p>
@@ -264,7 +264,7 @@ Outre les techniques, le pratiquant d'Aïkido apprend à respirer par l'abdomen,
 
 <div class="side-image">
   <div class="side-image__image">
-    <img src="{{ '/assets/presentation_morihei_photo.jpg' | relative_url }}" alt="O'Sensei Ueshiba Morihei" title="O'Sensei Ueshiba Morihei" />
+    <img src="{{ '/assets/presentation_osensei2.jpg' | relative_url }}" alt="O'Sensei Ueshiba Morihei" title="O'Sensei Ueshiba Morihei" />
   </div>
   <div class="side-image__content">
     <p>S'il fallait résumer les caractéristiques de l'Aïkido en quelques mots-clés, on se doit d'insister sur ses qualités externes (techniques, efficacité, emploi de l'énergie de l'autre, esthétisme), internes (équilibre, emploi du Ki, maîtrise de soi, respiration) et morales (défense proportionnelle à l'attaque, non-agressivité, recherche du non-combat). Enfin, le pratiquant essaiera de méditer les paroles d'Osawa K. Shihan (reprises dans Aïkido, étiquette et transmission, de Tamura N. Shihan, Éditions du Soleil Levant, 1992), qui compare la pratique à un miroir, qui réfléchit le monde extérieur sans s'y attacher : "L'attachement fait naître l'esprit combatif; or, l'Aïkido est une recherche de la liberté véritable, recherche qui se fait en pétrissant le corps comme un bon boulanger pétrit son pain, et non une méthode de destruction. Dans l'Aïkido, il y a la liberté du miroir."  Définition largement inspirée de textes dus à Monsieur Pierre Chassang (Aïkido, dis-nous ce que tu sais !) et de l'article du Dr Jean-Paul Engelbeen paru dans la revue "Équilibre".</p>
