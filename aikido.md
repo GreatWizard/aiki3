@@ -278,23 +278,33 @@ Outre les techniques, le pratiquant d'Aïkido apprend à respirer par l'abdomen,
 <ul class="tabs">
   {% for currentLetter in page.alphabet %}
     {% assign letter = currentLetter | uppercase %}
-    <li class="tabs__tab">
-      <button class="tabs__link{% if forloop.index0 == 0 %} tabs__link--active{% endif %}">{{ letter }}</button>
-      <div class="tabs__content">
-        {% for definition in definitionsSorted %}
-          {% assign firstLetter = definition.title | uppercase | slice: 0 %}
-          {% if firstLetter == letter %}
-            <p>
-              <strong>{{ definition.title }}</strong> : {{ definition.definition }}
-            </p>
-            {% if definition.citation %}
+    {% assign definitionsExists = false %}
+    {% for definition in definitionsSorted %}
+      {% assign firstLetter = definition.title | uppercase | slice: 0 %}
+      {% if firstLetter == letter %}
+        {% assign definitionsExists = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if definitionsExists %}
+      <li class="tabs__tab">
+        <button class="tabs__link{% if forloop.index0 == 0 %} tabs__link--active{% endif %}">{{ letter }}</button>
+        <div class="tabs__content">
+          {% for definition in definitionsSorted %}
+            {% assign firstLetter = definition.title | uppercase | slice: 0 %}
+            {% if firstLetter == letter %}
               <p>
-                <cite>{{ definition.citation }}</cite>
+                <strong>{{ definition.title }}</strong> : {{ definition.definition }}
               </p>
+              {% if definition.citation %}
+                <p>
+                  <cite>{{ definition.citation }}</cite>
+                </p>
+              {% endif %}
             {% endif %}
-          {% endif %}
-        {% endfor %}
-      </div>
-    </li>
+          {% endfor %}
+        </div>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
