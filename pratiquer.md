@@ -3,8 +3,8 @@ layout: page-full
 link: Venir pratiquer
 linkOrder: 30
 js:
-  - maps
   - init-maps
+  - maps
 ---
 
 # Que dois-je faire pour venir pratiquer ?
