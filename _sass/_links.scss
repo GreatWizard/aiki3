@@ -15,6 +15,11 @@
 
     img {
       height: 150px;
+      @include transition(opacity $base-duration $base-timing);
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 
