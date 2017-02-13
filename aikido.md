@@ -249,19 +249,18 @@ Outre les techniques, le pratiquant d'Aïkido apprend à respirer par l'abdomen,
 {% assign definitionsSorted = page.definitions | sort: '+title' %}
 
 <ul class="tabs">
-
   {% assign letter = '' %}
   {% for definition in definitionsSorted %}
     {% assign currentLetter = definition.title | uppercase | slice: 0 %}
     {% if currentLetter != letter %}
-      {% if currentLetter == '' %}
+      {% if forloop.index0 > 0 %}
           </div>
         </li>
       {% endif %}
       {% assign letter = currentLetter %}
-      <li class="tabs__tab">
-        <button class="tabs__link{% if forloop.index0 == 0 %} tabs__link--active{% endif %}">{{ letter }}</button>
-        <div class="tabs__content">
+        <li class="tabs__tab">
+          <button class="tabs__link{% if forloop.index0 == 0 %} tabs__link--active{% endif %}">{{ letter }}</button>
+          <div class="tabs__content">
     {% endif %}
     <p>
       <strong>{{ definition.title }}</strong> : {{ definition.definition }}
@@ -272,5 +271,6 @@ Outre les techniques, le pratiquant d'Aïkido apprend à respirer par l'abdomen,
       </p>
     {% endif %}
   {% endfor %}
-
+    </div>
+  </li>
 </ul>
