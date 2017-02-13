@@ -15,7 +15,7 @@ Tous les niveaux sont acceptés, débutants ou expérimentés.
 
 #### Faut-il apporter du matériel ?
 
-Pour les premiers cours, un survêtement en coton est accepté. 
+Pour les premiers cours, un survêtement en coton est accepté.
 Ensuite, un kimono type judo et une ceinture blanche sont nécessaires pour la pratique.
 
 # Plan d'accès et horaires des cours
