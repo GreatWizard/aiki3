@@ -7,7 +7,7 @@
   <title>{{ site.title }}{% if page.title %} · {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
   <meta name="keywords" content="{{ page.excerpt | default: site.keywords | join: ', ' | strip_html | normalize_whitespace }}">
-  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{'/css/style.css' | relative_url}}">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Amethysta">
   {% for name in page.css %}
     {% if name == 'photoswipe' %}
@@ -56,12 +56,9 @@
     {% elsif name == 'photoswipe' %}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
-    {% elsif name == 'init-gallery' %}
-      <script src="{{ '/js/init-gallery.js' | relative_url }}"></script>
-    {% elsif name == 'init-maps' %}
-      <script src="{{ '/js/init-maps.js' | relative_url }}"></script>
-    {% elsif name == 'tabs' %}
-      <script src="{{ '/js/tabs.js' | relative_url }}"></script>
+    {% else %}
+      {% assign filename = '/js/' | append: name | append: '.js' %}
+      <script src="{{filename | relative_url}}"></script>
     {% endif %}
   {% endfor %}
   {% if jekyll.environment == 'production' and site.google_analytics %}

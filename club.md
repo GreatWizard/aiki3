@@ -41,7 +41,7 @@ Les entrainements ont lieu au moins deux fois par semaine dans les salles de com
 
 <div class="side-image">
   <div class="side-image__image">
-    <img src="{{ '/assets/club_mcz.jpg' | relative_url }}" alt="Michel Czerniak" title="Michel Czerniak" />
+    <img src="{{'/assets/club_mcz.jpg' | relative_url}}" alt="Michel Czerniak" title="Michel Czerniak" />
   </div>
   <div class="side-image__content">
     <p>Les cours sont assurés par <strong>Michel Czerniak</strong>, ceinture noire 6e Dan, diplômé d'État (Diplôme n° 75970723).</p>

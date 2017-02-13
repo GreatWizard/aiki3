@@ -6,7 +6,7 @@ layout: page-side
     <h1>Pratiquer l'aïkido à Troyes</h1>
   </div>
   <div class="side-image__image">
-    <img src="{{ '/assets/logo_aiki3_complete.png' | relative_url }}" alt="Aiki3" title="Aiki3" />
+    <img src="{{'/assets/logo_aiki3_complete.png' | relative_url}}" alt="Aiki3" title="Aiki3" />
   </div>
   <div class="side-image__content">
     <p>L'Aiki3 est un club d'aïkido à Troyes.</p>
@@ -23,7 +23,7 @@ layout: page-side
   {% for post in postsSorted %}
     <li>
       <p>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{post.url | relative_url}}">{{ post.title }}</a>
       </p>
       {{ post.excerpt }}
     </li>

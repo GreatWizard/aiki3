@@ -30,7 +30,7 @@ docs:
     {% for node in page.links %}
       <div class="links__link">
         <a href="{{ node.url }}" target="_blank">
-          <img src="{{ node.image | relative_url }}" alt="{{ node.title }}" title="{{ node.title }}" />
+          <img src="{{node.image | relative_url}}" alt="{{ node.title }}" title="{{ node.title }}" />
           <br />
           {{ node.title }}
         </a>
