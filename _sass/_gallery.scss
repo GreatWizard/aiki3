@@ -6,14 +6,9 @@
     height: $gallery-image-height;
     margin-right: $gallery-image-spacing;
     margin-bottom: $gallery-image-spacing;
-    opacity: 0.9;
 
     &--large {
       height: $gallery-image-big-height;
-    }
-
-    &:hover {
-      opacity: 1;
     }
   }
 }

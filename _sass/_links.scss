@@ -15,16 +15,6 @@
 
     img {
       height: 150px;
-      transition: opacity $base-duration $base-timing;
-
-      &:hover {
-        opacity: 0.9;
-      }
     }
   }
-
-  /*a {
-    margin-right: $spacing-lg;
-    TODO : à remettre si on arrive à faire marcher un margin vertical
-  }*/
 }
