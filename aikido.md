@@ -5,33 +5,6 @@ linkOrder: 10
 js:
   - jquery
   - tabs
-alphabet:
-  - A
-  - B
-  - C
-  - D
-  - E
-  - F
-  - G
-  - H
-  - I
-  - J
-  - K
-  - L
-  - M
-  - N
-  - O
-  - P
-  - Q
-  - R
-  - S
-  - T
-  - U
-  - V
-  - W
-  - X
-  - Y
-  - Z
 definitions:
   - title: Ashi
     definition: La jambe
@@ -276,35 +249,28 @@ Outre les techniques, le pratiquant d'Aïkido apprend à respirer par l'abdomen,
 {% assign definitionsSorted = page.definitions | sort: '+title' %}
 
 <ul class="tabs">
-  {% for currentLetter in page.alphabet %}
-    {% assign letter = currentLetter | uppercase %}
-    {% assign definitionsExists = false %}
-    {% for definition in definitionsSorted %}
-      {% assign firstLetter = definition.title | uppercase | slice: 0 %}
-      {% if firstLetter == letter %}
-        {% assign definitionsExists = true %}
-        {% break %}
+
+  {% assign letter = '' %}
+  {% for definition in definitionsSorted %}
+    {% assign currentLetter = definition.title | uppercase | slice: 0 %}
+    {% if currentLetter != letter %}
+      {% if currentLetter == '' %}
+          </div>
+        </li>
       {% endif %}
-    {% endfor %}
-    {% if definitionsExists %}
+      {% assign letter = currentLetter %}
       <li class="tabs__tab">
         <button class="tabs__link{% if forloop.index0 == 0 %} tabs__link--active{% endif %}">{{ letter }}</button>
         <div class="tabs__content">
-          {% for definition in definitionsSorted %}
-            {% assign firstLetter = definition.title | uppercase | slice: 0 %}
-            {% if firstLetter == letter %}
-              <p>
-                <strong>{{ definition.title }}</strong> : {{ definition.definition }}
-              </p>
-              {% if definition.citation %}
-                <p>
-                  <cite>{{ definition.citation }}</cite>
-                </p>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-        </div>
-      </li>
+    {% endif %}
+    <p>
+      <strong>{{ definition.title }}</strong> : {{ definition.definition }}
+    </p>
+    {% if definition.citation %}
+      <p>
+        <cite>{{ definition.citation }}</cite>
+      </p>
     {% endif %}
   {% endfor %}
+
 </ul>
