@@ -2,6 +2,32 @@
 layout: page-full
 link: Le club
 linkOrder: 20
+gallery:
+  - title: Michel à droite, professeur de l'Aiki3
+    url: /assets/gallery_aiki1.jpg
+    width: 479
+    height: 328
+  - title: Kokyu Nage (projection)
+    url: /assets/gallery_aiki2.jpg
+    width: 400
+    height: 330
+  - title: Shihoo Nage (projection)
+    url: /assets/gallery_aiki3.jpg
+    width: 400
+    height: 330
+  - title: Hiji Kime Osae
+    url: /assets/gallery_aiki4.jpg
+    width: 400
+    height: 327
+  - title: Nikyo
+    url: /assets/gallery_aiki5.jpg
+    width: 400
+    height: 330
+css:
+  - photoswipe
+js:
+  - photoswipe
+  - init-gallery
 ---
 # Présentation
 
@@ -25,4 +51,12 @@ Les entrainements ont lieu au moins deux fois par semaine dans les salles de com
 
 # Galerie
 
-[TODO : mettre des photos]
+{% include photoswipe.html %}
+
+<div class="gallery">
+  {% for image in page.gallery %}
+    <a href="{{image.url | relative_url}}" data-size="{{image.width}}x{{image.height}}" data-title="{{image.title}}">
+      <img class="gallery__image{% if forloop.index0 == 0 %} gallery__image--large{% endif %}" src="{{image.url | relative_url}}" alt="{{image.title}}" title="{{image.title}}" />
+    </a>
+  {% endfor %}
+</div>

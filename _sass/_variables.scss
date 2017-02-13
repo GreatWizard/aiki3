@@ -89,6 +89,12 @@ $tabs-background-color: $base-background-color;
 $tabs-border-color: $base-border-color;
 $tabs-border-radius: $base-border-radius;
 
+// Gallery
+
+$gallery-image-height: 150px;
+$gallery-image-spacing: $spacing-md;
+$gallery-image-big-height: 2 * $gallery-image-height + $spacing-md;
+
 // z-index
 
 $z-index-scale: navbar;
