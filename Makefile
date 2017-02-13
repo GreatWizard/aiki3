@@ -12,18 +12,17 @@ install:
 
 # help: update      Update dependencies
 update:
-	mkdir -p .bundle/
-	bundle install --local
+	bundle install --path vendor/bundle
 
 # help: serve (s)   Launch server
 serve:
-	jekyll serve -w
+	bundle exec jekyll serve -w
 
 s: serve
 
 # help: build (b)   Build project
 build:
-	jekyll build  --config=_config.yml,_config_prod.yml
+	bundle exec jekyll build  --config=_config.yml,_config_prod.yml
 
 b: build
 

@@ -1,6 +1,3 @@
 environment: production
 baseurl: "/__nouveau"
 url: "http://aiki3.com"
-# Build settings
-sass:
-  style: compressed

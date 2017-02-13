@@ -10,5 +10,5 @@
 
 .container--side {
   @include outer-container($max-width - $side-width);
-  @include calc(margin-left, "#{$side-width} + #{$spacing-lg}")
+  margin-left: calc(#{$side-width} + #{$spacing-lg})
 }

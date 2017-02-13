@@ -52,7 +52,7 @@ p {
 
 a {
   color: $action-color;
-  @include transition(color $base-duration $base-timing);
+  transition: color $base-duration $base-timing;
   text-decoration: none;
   font-weight: bold;
 

@@ -1,3 +1,3 @@
 @mixin content-height() {
-  @include calc(min-height, "100vh - (#{$footer-height} + #{$spacing-lg} + #{$navbar-height} + #{$spacing-lg})");
+  min-height: calc(100vh - (#{$footer-height} + #{$spacing-lg} + #{$navbar-height} + #{$spacing-lg}));
 }

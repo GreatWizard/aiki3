@@ -61,8 +61,10 @@ exclude:
   - Makefile
   - README.md
   - circle.yml
+  - vendor
 gems:
   - bourbon
   - neat
   - jekyll-autoprefixer
   - jemoji
+  - jekyll-minifier
