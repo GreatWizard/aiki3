@@ -85,10 +85,9 @@ $side-width: 240px;
 
 // Tabs
 
-$tab-link-color: #313131;
-$tab-content-background: #d3d3d3;
-$tab-active-background: $tab-content-background;
-$tab-inactive-color: #313131;
+$tabs-background-color: $base-background-color;
+$tabs-border-color: $base-border-color;
+$tabs-border-radius: $base-border-radius;
 
 // z-index
 

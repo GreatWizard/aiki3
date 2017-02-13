@@ -7,34 +7,33 @@
   }
 
   &__link {
-    background-color: $tab-inactive-color;
-    display: block;
+    background-color: $tabs-background-color;
+    display: inline-block;
     font-weight: bold;
-    padding: ($base-spacing / 2) ($gutter / 2);
     text-decoration: none;
     border-radius: 0;
-    @include border-top-radius($base-border-radius);
-    display: inline-block;
-    width: 26px;
+    @include border-top-radius($tabs-border-radius);
+    padding: ($base-spacing / 2) ($gutter / 2);
+    width: $spacing-xl;
 
     &:hover,
     &:focus,
     &--active {
-      color: $tab-link-color;
-      background-color: $tab-active-background;
+      background-color: $tabs-background-color;
+      border: 1px solid $tabs-border-color;
+      border-bottom-color: $tabs-background-color;
       margin-bottom: -1px;
     }
   }
 
   &__content {
-    color: $tab-link-color;
-    background: $tab-content-background;
     display: none;
+    float: left;
     padding: $spacing-md;
     padding-bottom: 0;
     width: 100%;
-    @include border-bottom-radius($base-border-radius);
-    border-top-right-radius: $base-border-radius;
-    float: left;
+    border-top: 1px solid $tabs-border-color;
+    @include border-bottom-radius($tabs-border-radius);
+    border-top-right-radius: $tabs-border-radius;
   }
 }
