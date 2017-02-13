@@ -54,6 +54,7 @@ a {
   color: $action-color;
   transition: color $base-duration $base-timing;
   text-decoration: none;
+  font-weight: bold;
 
   &:active,
   &:focus,
