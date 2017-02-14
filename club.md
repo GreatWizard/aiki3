@@ -45,7 +45,7 @@ Les entrainements ont lieu au moins deux fois par semaine dans les salles de com
   </div>
   <div class="side-image__content">
     <p>Les cours sont assurés par <strong>Michel Czerniak</strong>, ceinture noire 6e Dan, diplômé d'État (Diplôme n° 75970723).</p>
-    <p>La pratique à l'Aiki3 est essentiellement influencée par l'enseignement de <strong><a href="ttp://www.aikido-benezi.com" target="_blank">Patrick Benezi</a></strong>, ceinture noire, Shihan 7e Dan, qui enseigne à Paris et dirige des stages au Cercle Tissier à Vincennes et dans toute la France.</p>
+    <p>La pratique à l'Aiki3 est essentiellement influencée par l'enseignement de <strong><a href="ttp://www.aikido-benezi.com" target="_blank">Patrick Bénézi</a></strong>, ceinture noire, Shihan 7e Dan, qui enseigne à Paris et dirige des stages au Cercle Tissier à Vincennes et dans toute la France.</p>
   </div>
 </div>
 
