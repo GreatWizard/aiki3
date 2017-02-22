@@ -11,4 +11,4 @@ deployment:
   documentation:
     branch: master
     commands:
-      - ncftpput -R -v -u $FTP_USER -p $FTP_PSSWD $FTP_HOST __nouveau _site/*
+      - ncftpput -R -v -u $FTP_USER -p $FTP_PSSWD $FTP_HOST . _site/*
