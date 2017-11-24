@@ -21,8 +21,8 @@ links:
 docs:
   - title: Tryptique de présentation de l'Aiki3 (pdf)
     url: /assets/triptyque 2010-2011.pdf
-  - title: Le planning des stages 2016-2017 de Patrick Bénézi (pdf)
-    url: http://www.aikido-benezi.com/graphics/stage2016-2017/planning%202016-2017.pdf
+  - title: Le planning des stages 2017-2018 de Patrick Bénézi (pdf)
+    url: http://www.aikido-benezi.com/graphics/stage2017-2018/planning%202017-2018-3.pdf
 ---
 
 {% if page.links %}
