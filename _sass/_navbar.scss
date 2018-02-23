@@ -1,56 +1,41 @@
-html {
-  margin-top: $navbar-height;
-}
-
 .navbar {
-  display: flex;
-  padding-left: $spacing-lg;
-  padding-right: $spacing-lg;
-  height: $navbar-height;
   background-color: $navbar-background-color;
   box-shadow: 0px 2px 4px $navbar-shadow-color;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: index($z-index-scale, navbar);
+  padding: 0px;
 
-  &__item {
+  .navbar-brand {
+    padding: 0px;
+    padding-left: $spacing-lg;
+    img {
+      padding: $spacing-sm;
+      height: calc(#{$navbar-height} - (2 * #{$spacing-sm}));
+    }
+  }
+
+  .navbar-toggler {
+    font-size: 1em;
+    margin-top: 2px;
+  }
+
+  .nav-item {
     text-align: center;
     padding-left: $spacing-xl;
     padding-right: $spacing-xl;
-  }
 
-  a.navbar__link {
-    line-height: $navbar-height;
-    font-weight: bold;
-    color: $navbar-link-color;
-    text-decoration: none;
-    transition: background-color $base-duration $base-timing;
+    a.nav-link {
+      font-weight: bold;
+      color: $navbar-link-color;
+      text-decoration: none;
+      transition: background-color $base-duration $base-timing;
+    }
 
     &:active,
     &:focus,
     &:hover {
       background-color: $navbar-thumb-color-selected;
-      color: shade($navbar-link-active-color, 10%);
-    }
-
-    &--active {
-      background-color: $navbar-thumb-color-selected;
-      color: $navbar-link-active-color;
-    }
-  }
-
-  &__logo {
-    @include span-columns(2);
-    padding-top: $spacing-sm;
-    padding-bottom: $spacing-sm;
-    text-align: center;
-    margin-right: 0;
-    padding-right: 20px;
-
-    img {
-      height: calc(#{$navbar-height} - (2 * #{$spacing-sm}));
+      a.nav-link {
+        color: shade($navbar-link-active-color, 10%);
+      }
     }
   }
 }

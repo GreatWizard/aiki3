@@ -72,7 +72,7 @@ $navbar-thumb-color-selected: $base-background-color;
 $navbar-shadow-color: #000;
 $navbar-link-color: #313131;
 $navbar-link-active-color: $white;
-$navbar-height: 40px;
+$navbar-height: 50px;
 
 // Footer
 
@@ -96,5 +96,4 @@ $gallery-image-spacing: $spacing-md;
 $gallery-image-big-height: 2 * $gallery-image-height + $spacing-md;
 
 // z-index
-
 $z-index-scale: navbar;

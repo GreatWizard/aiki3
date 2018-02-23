@@ -12,7 +12,8 @@ h3 {
   left: -2px;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
-  margin: 0 0 $tiny-spacing;
+  margin: 0px;
+  margin-bottom: $tiny-spacing;
 }
 
 h6 {

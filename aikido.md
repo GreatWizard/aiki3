@@ -168,7 +168,7 @@ definitions:
   - title: Taïsabaki
     definition: Déplacement du corps
   - title: Takemusu Aïki
-    definition: L'Aïkido pratiqué lucidement. 
+    definition: L'Aïkido pratiqué lucidement.
     citation: L'Aïkido a une forme, et ne doit pas avoir de forme. L'Aïkido est une vie qui a une forme et continue à couler en changeant. Elle s'exprime par son propre changement. Une forme sans aucune forme, comme un mot dans un poème qui exprime sans limite l'univers.
   - title: Tanden
     definition: Voir Hara
@@ -205,7 +205,7 @@ definitions:
   - title: Yokomenuchi
     definition: Coup sur le côté de la tête ou du cou
   - title: Yudansha
-    definition: Pratiquant portant la ceinture noire. 
+    definition: Pratiquant portant la ceinture noire.
   - title: Zanshin
     definition: Continuité. Rester éveillé et prêt à l'action suivante
 ---

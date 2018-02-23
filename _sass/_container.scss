@@ -1,31 +1,62 @@
-html {
+body {
   background-color: $base-background-color;
   background-image: url('../assets/background.png');
   background-repeat: repeat-y;
   background-position: right top;
 }
 
-.container {
-  @include outer-container;
+.page {
+  margin-left: $side-width + $spacing-xl;
+  padding-top: 1px;
+}
 
-  &__row {
-    @include fill-parent;
-    @include row;
-    margin-bottom: $spacing-sm;
+.out {
+  margin-left: -$side-width;
+}
+
+.slidein {
+  animation-duration: 0.8s;
+  animation-name: anim;
+  animation-timing-function: ease;
+}
+
+.slideout {
+  animation-duration: 0.8s;
+  animation-name: anim;
+  animation-timing-function: ease;
+  animation-direction: reverse;
+}
+
+@keyframes anim {
+  from {
+    margin-left:-$side-width;
   }
-
-  &__full {
-    @include span-columns($grid-columns);
-    padding-left: $spacing-lg;
-    padding-right: $spacing-lg;
-
-    .subcontainer__half {
-      @include media($screen-mobile) {
-        @include span-columns($grid-columns);
-      }
-      @include media($screen-desktop) {
-        @include span-columns($grid-columns / 2);
-      }
-    }
+  to {
+    margin-left:0;
   }
 }
+
+// .container {
+//   @include outer-container;
+//
+//   &__row {
+//     @include fill-parent;
+//     @include row;
+//     margin-bottom: $spacing-sm;
+//   }
+//
+//   &__full {
+//     @include span-columns($grid-columns);
+//     padding-left: $spacing-lg;
+//     padding-right: $spacing-lg;
+//
+//     .subcontainer__half {
+//       @include media($screen-mobile) {
+//         @include span-columns($grid-columns);
+//       }
+//       @include media($screen-desktop) {
+//         @include span-columns($grid-columns / 2);
+//       }
+//     }
+//   }
+// }

@@ -3,9 +3,8 @@
   background-color: $dark-background-color;
   padding-left: $spacing-lg;
   padding-right: $spacing-lg;
-  position: absolute;
-  left: 0;
-  width: 240px;
+  position: fixed;
+  width: $side-width;
 }
 
 .container--side {
