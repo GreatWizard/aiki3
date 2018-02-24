@@ -45,17 +45,24 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 </head>
 <body>
-  {% include navbar.html %}
-  <main class="footer-pusher">
-    {{ content }}
-  </main>
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="{{ site.baseurl }}/js/init-localStorage.js"></script>
+  <script>
+    var isSideIn = (window.localStorage.getItem("isVisibleSide") != "false" );
+    var pageSide = "{{ page.isVisibleSide }}";
+  </script>
+  {% include navbar.html %}
+  <main class="footer-pusher">
+    <div class="animator {% if isSideIn %}in{% endif %}">
+      {% include side.html %}
+      {{ content }}
+    </div>
+  </main>
+  <script src="{{ site.baseurl }}/js/animations.js"></script>
   {% for name in page.js %}
-    {% if name == 'jquery' %}
-      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    {% elsif name == 'maps' %}
+    {% if name == 'maps' %}
       <script async defer src="https://maps.googleapis.com/maps/api/js?key={{site.google_maps_key}}&callback=initMaps"></script>
     {% elsif name == 'photoswipe' %}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>

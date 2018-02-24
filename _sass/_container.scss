@@ -10,31 +10,35 @@ body {
   padding-top: 1px;
 }
 
-.out {
+.animator {
   margin-left: -$side-width;
 }
 
-.slidein {
-  animation-duration: 0.8s;
-  animation-name: anim;
-  animation-timing-function: ease;
+.in {
+  margin-left: 0px;
 }
 
-.slideout {
-  animation-duration: 0.8s;
-  animation-name: anim;
-  animation-timing-function: ease;
-  animation-direction: reverse;
-}
-
-@keyframes anim {
-  from {
-    margin-left:-$side-width;
-  }
-  to {
-    margin-left:0;
-  }
-}
+// .slidein {
+//   animation-duration: 0.8s;
+//   animation-name: anim;
+//   animation-timing-function: ease;
+// }
+//
+// .slideout {
+//   animation-duration: 0.8s;
+//   animation-name: anim;
+//   animation-timing-function: ease;
+//   animation-direction: reverse;
+// }
+//
+// @keyframes anim {
+//   from {
+//     margin-left:-$side-width;
+//   }
+//   to {
+//     margin-left:0;
+//   }
+// }
 
 // .container {
 //   @include outer-container;

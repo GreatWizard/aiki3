@@ -1,5 +1,6 @@
 ---
 layout: page-full
+isVisibleSide: false
 link: Stages
 linkOrder: 50
 ---

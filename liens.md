@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: page-full
+isVisibleSide: false
 link: Liens
 linkOrder: 40
 links:

@@ -1,9 +1,9 @@
 ---
 layout: page-full
+isVisibleSide: false
 link: L'aïkido
 linkOrder: 10
 js:
-  - jquery
   - tabs
 definitions:
   - title: Ashi

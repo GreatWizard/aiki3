@@ -1,5 +1,6 @@
 ---
-layout: page-side
+layout: page-full
+isVisibleSide: true
 ---
 <div class="side-image">
   <div class="side-image__header">

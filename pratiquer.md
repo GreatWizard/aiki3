@@ -1,5 +1,6 @@
 ---
 layout: page-full
+isVisibleSide: false
 link: Venir pratiquer
 linkOrder: 30
 js:

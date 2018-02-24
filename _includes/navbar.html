@@ -3,7 +3,7 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="{{'/' | relative_url}}">
+  <a class="navbar-brand" href="{{'/' | relative_url}}" data-layout="page-side">
     <img src="{{'/assets/logo-text.png' | relative_url}}" class="d-inline-block align-top" alt=""/>
   </a>
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -11,7 +11,7 @@
       {% for node in pagesSorted %}
         {% if node.link %}
           <li class="nav-item {% if node.url == page.url %}active{% endif %}">
-            <a class="nav-link" href="{{node.url | relative_url}}">
+            <a class="nav-link" href="{{node.url | relative_url}}" data-layout="{{ node.layout }}">
               {{ node.link }}
             </a>
           </li>

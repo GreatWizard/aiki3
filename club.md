@@ -1,5 +1,6 @@
 ---
 layout: page-full
+isVisibleSide: false
 link: Le club
 linkOrder: 20
 gallery:
